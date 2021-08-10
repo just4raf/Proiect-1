@@ -1,7 +1,7 @@
 
 import random
 
-chars = 'abcdefghijklmopqrstwxyz1234567890ABCDEFGHIJKLMOPQRSTWXYZ!@#$%^&*'
+chars = 'abcdefghijklmopqrstwxyz1234567890ABCDEFGHIJKLMOPQRSTWXYZ!@#$%^&*=+'
 
 numere = input("Cate parole vrei ?")
 numere = int(numere)
@@ -14,7 +14,7 @@ for p in range(lungime):
     for c in range (numere):
         password += random.choice(chars)
     print(password)
-
+#Succes
 
 
 
