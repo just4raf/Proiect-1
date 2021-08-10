@@ -15,7 +15,7 @@ for p in range(lungime):
         password += random.choice(chars)
     print(password)
 #Succes
-
+#Lol Frate
 
 
 
